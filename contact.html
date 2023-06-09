@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+<h1>Contact Me</h1>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.hmtl">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form>
+         <label>Name:
+            <input type="text">
+         </label> 
+         <label>Email address:
+<input type="text">
+    </label>
+<label for="reason-contact">Reason For Contact:</label>
+<input list="contact-reason" id="reason-contact" name="reason-for-contact">
+
+<datalist id="contact-reason">
+    <option value="To say hello">
+    <option value="Advice">
+    <option value="Questions">
+    <option value="Interested in talking">
+</datalist>
+<label for="comments">Comments:</label>
+
+<textarea id="comments" name="comment"
+rows="5" cols="33">
+</textarea>
+<input type="submit" value="Send Request" />
+        </form>
+    </section>
+    </body>
+    </html>
